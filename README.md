@@ -13,15 +13,19 @@ npm install canvas-image-resize
 1. Imports `canvas-image-resize`.
 
 For ES Modules:
+
 ```ts
-import { canvas } from 'canvas-image-resize';
+import { canvas } from "canvas-image-resize";
 ```
+
 For CommonJS:
+
 ```ts
-const { canvas } = require('canvas-image-resize');
+const { canvas } = require("canvas-image-resize");
 ```
 
 2. Example of use.
+
 ```ts
 const canvas = previewCanvasRef.current;
 if (canvas) {
@@ -42,18 +46,23 @@ if (canvas) {
 ```
 
 ## API
+
 resize({ canvas, options })
 
 Canvas
+
 - canvas : canvas - An html5 canvas element to resize and draw from
 
 Options
+
 - height : number - New height of the canvas ex: 300
 - width : number - New width of the canvas ex: 400
 - keepAspectRatio : boolean - Flag to maintain proportions. Default: true
 - imageSmoothingQuality : "low" | "medium" | "high" - Image smoothing quality. Default: "high"
-- 
+-
+
 ## Example
+
 <img src="./static/canvasOriginal.png" width="355" height="474" /><img src="./static/canvasResized.png" width="112" height="112" />
 
 ## License

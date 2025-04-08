@@ -3,13 +3,13 @@ export type TResizeImageCanvasOptions = {
   width?: number | null | undefined;
   keepAspectRatio?: boolean; // Flag to maintain proportions
   imageSmoothingQuality?: "low" | "medium" | "high"; // Image smoothing quality
-}
+};
 
 export type TResizeImageCanvasProps = {
-  canvas: HTMLCanvasElement,
-  options?: TResizeImageCanvasOptions,
-}
+  canvas: HTMLCanvasElement;
+  options?: TResizeImageCanvasOptions;
+};
 
 export type TResizeImageCanvasResponse = {
-  resizedCanvas: HTMLCanvasElement | null,
-}
+  resizedCanvas: HTMLCanvasElement | null;
+};

@@ -1,0 +1,5 @@
+/package*.json
+/dist
+/static
+node_modules
+.env

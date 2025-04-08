@@ -4,9 +4,14 @@
  * MIT Licensed
  */
 
-import type { TResizeImageCanvasProps, TResizeImageCanvasResponse } from "./types";
+import type {
+  TResizeImageCanvasProps,
+  TResizeImageCanvasResponse,
+} from "./types";
 
-export function resize(props: TResizeImageCanvasProps): TResizeImageCanvasResponse {
+export function resize(
+  props: TResizeImageCanvasProps,
+): TResizeImageCanvasResponse {
   const canvas = props.canvas;
   const options = props?.options;
 
@@ -49,7 +54,7 @@ export function resize(props: TResizeImageCanvasProps): TResizeImageCanvasRespon
 
   // Create a new canvas with the given dimensions
   const resizedCanvas = document.createElement("canvas");
-  resizedCanvas.width = newWidth ?? originalWidth;  // in case newWidth = undefined
+  resizedCanvas.width = newWidth ?? originalWidth; // in case newWidth = undefined
   resizedCanvas.height = newHeight ?? originalHeight; // in case newHeight = undefined
 
   // Get 2D context for new canvas
