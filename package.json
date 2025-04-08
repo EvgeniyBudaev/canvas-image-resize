@@ -1,0 +1,35 @@
+{
+  "name": "canvas-image-resize",
+  "version": "1.0.0",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "homepage": "https://github.com/EvgeniyBudaev/canvas-image-resize",
+  "repository": {
+    "url": "https://github.com/EvgeniyBudaev/canvas-image-resize"
+  },
+  "scripts": {
+    "build": "tsup",
+    "test": "vitest"
+  },
+  "keywords": [
+    "canvas-image-resize",
+    "canvas",
+    "image",
+    "resize",
+    "resizer",
+    "resize-image"
+  ],
+  "author": "Evgeniy Budaev",
+  "license": "MIT",
+  "description": "Changes the canvas size",
+  "devDependencies": {
+    "@testing-library/dom": "^10.4.0",
+    "canvas": "^3.1.0",
+    "jsdom": "^26.0.0",
+    "tsup": "^8.4.0",
+    "typescript": "^5.8.3",
+    "vite-tsconfig-paths": "^5.1.4",
+    "vitest": "^3.1.1"
+  }
+}
