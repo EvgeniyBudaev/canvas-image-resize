@@ -59,7 +59,6 @@ Options
 - width : number - New width of the canvas ex: 400
 - keepAspectRatio : boolean - Flag to maintain proportions. Default: true
 - imageSmoothingQuality : "low" | "medium" | "high" - Image smoothing quality. Default: "high"
--
 
 ## Example
 
