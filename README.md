@@ -15,13 +15,13 @@ npm install canvas-image-resize
 For ES Modules:
 
 ```ts
-import { canvas } from "canvas-image-resize";
+import { resize } from "canvas-image-resize";
 ```
 
 For CommonJS:
 
 ```ts
-const { canvas } = require("canvas-image-resize");
+const { resize } = require("canvas-image-resize");
 ```
 
 2. Example of use.

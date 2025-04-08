@@ -6,7 +6,7 @@
   "types": "./dist/index.d.ts",
   "homepage": "https://github.com/EvgeniyBudaev/canvas-image-resize",
   "repository": {
-    "url": "https://github.com/EvgeniyBudaev/canvas-image-resize"
+    "url": "git+https://github.com/EvgeniyBudaev/canvas-image-resize.git"
   },
   "scripts": {
     "build": "tsup",
