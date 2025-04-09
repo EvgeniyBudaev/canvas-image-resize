@@ -1,4 +1,5 @@
 export type TResizeImageCanvasOptions = {
+  contextType?: "2d"; // Canvas context type
   height?: number | null | undefined;
   width?: number | null | undefined;
   keepAspectRatio?: boolean; // Flag to maintain proportions
